@@ -1,11 +1,10 @@
+import { ExperienceBar } from './components/ExperienceBar'
 import './styles/global.css'
 
 function App() {
   return (
-    <div>
-      <button style={{ height: '2rem'}}>
-        teste
-      </button>
+    <div className="container">
+      <ExperienceBar/>
     </div>
   );
 }
